@@ -19,6 +19,10 @@ def find_largest():
             largest = num3
             
 # Display the result
+result = f"The largest number is: {largest}"
+        result_label.config(text=result)
+        speak(result)
+
 # Create the main window
 # Create a frame for the layout
 # Entry fields for the numbers
