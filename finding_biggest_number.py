@@ -9,8 +9,15 @@ def find_largest():
         num1 = float(entry_num1.get())
         num2 = float(entry_num2.get())
         num3 = float(entry_num3.get())
-        
+
 # Find the largest number using if-else statements
+        if num1 >= num2 and num1 >= num3:
+            largest = num1
+        elif num2 >= num1 and num2 >= num3:
+            largest = num2
+        else:
+            largest = num3
+            
 # Display the result
 # Create the main window
 # Create a frame for the layout
