@@ -19,9 +19,10 @@ def find_largest():
             largest = num3
             
 # Display the result
-result = f"The largest number is: {largest}"
-        result_label.config(text=result)
-        speak(result)
+result_label.config(text=f"The largest number is: {largest}")
+    except ValueError:
+        result_label.config(text="Please enter valid numbers.")
+
 
 # Create the main window
 # Create a frame for the layout
