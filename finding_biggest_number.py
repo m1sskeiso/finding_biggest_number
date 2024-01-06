@@ -19,13 +19,18 @@ def find_largest():
             largest = num3
             
 # Display the result
-result_label.config(text=f"The largest number is: {largest}")
-    except ValueError:
-        result_label.config(text="Please enter valid numbers.")
-
+    result_label.config(text=f"The largest number is: {largest}")
+except ValueError:
+    result_label.config(text="Please enter valid numbers.")
 
 # Create the main window
+root = tk.Tk()
+root.title("Largest Number Finder")
+
 # Create a frame for the layout
+frame = ttk.Frame(root, padding="30")
+frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+
 # Entry fields for the numbers
 # Labels for the entry fields
 # Button to find the largest number
