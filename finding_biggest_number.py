@@ -32,6 +32,15 @@ frame = ttk.Frame(root, padding="30")
 frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 
 # Entry fields for the numbers
+entry_num1 = ttk.Entry(frame, width=15, font=("Georgia", 16))
+entry_num1.grid(row=0, column=1, padx=10, pady=10)
+
+entry_num2 = ttk.Entry(frame, width=15, font=("Georgia", 16))
+entry_num2.grid(row=1, column=1, padx=10, pady=10)
+
+entry_num3 = ttk.Entry(frame, width=15, font=("Georgia", 16))
+entry_num3.grid(row=2, column=1, padx=10, pady=10)
+
 # Labels for the entry fields
 # Button to find the largest number
 # Label to display the result
