@@ -18,10 +18,11 @@ def find_largest():
         else:
             largest = num3
             
-# Display the result
-    result_label.config(text=f"The largest number is: {largest}")
-except ValueError:
-    result_label.config(text="Please enter valid numbers.")
+  # Display the result
+        result_label.config(text=f"The largest number is: {largest}")
+    except ValueError:
+        result_label.config(text="Please enter valid numbers.")
+
 
 # Create the main window
 root = tk.Tk()
