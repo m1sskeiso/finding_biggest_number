@@ -52,6 +52,9 @@ label_num3 = ttk.Label(frame, text="Enter third number:", font=("Georgia", 16))
 label_num3.grid(row=2, column=0, sticky=tk.W, padx=10, pady=10)
 
 # Button to find the largest number
+find_button = ttk.Button(frame, text="Find Largest Number", command=find_largest, style="W.TButton")
+find_button.grid(row=3, column=0, columnspan=2, pady=20)
+
 # Label to display the result
 # Styling the button
 # Run the application
