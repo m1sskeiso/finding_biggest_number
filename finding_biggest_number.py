@@ -62,7 +62,7 @@ result_label.grid(row=4, column=0, columnspan=2)
 
 # Styling the button
 style = ttk.Style()
-style.configure("W.TButton", font=("Arial", 16), padding=10)
+style.configure("W.TButton", font=("Georgia", 16), padding=10)
 
 # Run the application
 root.mainloop()
