@@ -42,6 +42,9 @@ entry_num3 = ttk.Entry(frame, width=15, font=("Georgia", 16))
 entry_num3.grid(row=2, column=1, padx=10, pady=10)
 
 # Labels for the entry fields
+label_num1 = ttk.Label(frame, text="Enter first number:", font=("Georgia", 16))
+label_num1.grid(row=0, column=0, sticky=tk.W, padx=10, pady=10)
+
 # Button to find the largest number
 # Label to display the result
 # Styling the button
