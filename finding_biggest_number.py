@@ -23,7 +23,6 @@ def find_largest():
     except ValueError:
         result_label.config(text="Please enter valid numbers.")
 
-
 # Create the main window
 root = tk.Tk()
 root.title("Largest Number Finder")
