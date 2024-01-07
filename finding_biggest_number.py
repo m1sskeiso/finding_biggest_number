@@ -56,5 +56,8 @@ find_button = ttk.Button(frame, text="Find Largest Number", command=find_largest
 find_button.grid(row=3, column=0, columnspan=2, pady=20)
 
 # Label to display the result
+result_label = ttk.Label(frame, text="", font=("Georgia", 16))
+result_label.grid(row=4, column=0, columnspan=2)
+
 # Styling the button
 # Run the application
